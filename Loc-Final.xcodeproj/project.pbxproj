@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38DE264620DB2E37005015D4 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DE264520DB2E37005015D4 /* SettingViewController.m */; };
+		38DE264820DB2F08005015D4 /* icons8-automatic-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 38DE264720DB2F08005015D4 /* icons8-automatic-26.png */; };
+		38FAA54220DCD647000B4417 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FAA54120DCD647000B4417 /* Global.m */; };
+		38FAA54620DDE410000B4417 /* gpsicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FAA54420DDE40F000B4417 /* gpsicon.png */; };
+		38FAA54720DDE410000B4417 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FAA54520DDE410000B4417 /* splash.png */; };
+		38FAA55120DE06E8000B4417 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FAA54B20DE06E8000B4417 /* NSDate+Extension.m */; };
+		38FAA55220DE06E8000B4417 /* JXDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FAA54C20DE06E8000B4417 /* JXDatePickerView.m */; };
+		38FAA55320DE06E8000B4417 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FAA55020DE06E8000B4417 /* UIView+Extension.m */; };
 		AC49562E1D2066CD00EA973A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC49562D1D2066CD00EA973A /* main.m */; };
 		AC4956311D2066CD00EA973A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4956301D2066CD00EA973A /* AppDelegate.m */; };
 		AC4956341D2066CD00EA973A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4956331D2066CD00EA973A /* FirstViewController.m */; };
@@ -40,7 +48,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC4956291D2066CD00EA973A /* Loc-Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loc-Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DE264420DB2E37005015D4 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		38DE264520DB2E37005015D4 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		38DE264720DB2F08005015D4 /* icons8-automatic-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-automatic-26.png"; path = "../../../Downloads/icons8-automatic-26.png"; sourceTree = "<group>"; };
+		38FAA54020DCD647000B4417 /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		38FAA54120DCD647000B4417 /* Global.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		38FAA54420DDE40F000B4417 /* gpsicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gpsicon.png; path = ../../doc/WorkInfo/photo/gpsicon.png; sourceTree = "<group>"; };
+		38FAA54520DDE410000B4417 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../../doc/WorkInfo/photo/splash.png; sourceTree = "<group>"; };
+		38FAA54B20DE06E8000B4417 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Extension.m"; path = "../../../Downloads/DatePicker-master/DatePicker/JXDaePickerView/NSDate+Extension.m"; sourceTree = "<group>"; };
+		38FAA54C20DE06E8000B4417 /* JXDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JXDatePickerView.m; path = "../../../Downloads/DatePicker-master/DatePicker/JXDaePickerView/JXDatePickerView.m"; sourceTree = "<group>"; };
+		38FAA54D20DE06E8000B4417 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Extension.h"; path = "../../../Downloads/DatePicker-master/DatePicker/JXDaePickerView/NSDate+Extension.h"; sourceTree = "<group>"; };
+		38FAA54E20DE06E8000B4417 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "../../../Downloads/DatePicker-master/DatePicker/JXDaePickerView/UIView+Extension.h"; sourceTree = "<group>"; };
+		38FAA54F20DE06E8000B4417 /* JXDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JXDatePickerView.h; path = "../../../Downloads/DatePicker-master/DatePicker/JXDaePickerView/JXDatePickerView.h"; sourceTree = "<group>"; };
+		38FAA55020DE06E8000B4417 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "../../../Downloads/DatePicker-master/DatePicker/JXDaePickerView/UIView+Extension.m"; sourceTree = "<group>"; };
+		AC4956291D2066CD00EA973A /* LocationDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC49562D1D2066CD00EA973A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC49562F1D2066CD00EA973A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC4956301D2066CD00EA973A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +114,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38FAA54A20DE06AB000B4417 /* JXDaePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				38FAA54F20DE06E8000B4417 /* JXDatePickerView.h */,
+				38FAA54C20DE06E8000B4417 /* JXDatePickerView.m */,
+				38FAA54D20DE06E8000B4417 /* NSDate+Extension.h */,
+				38FAA54B20DE06E8000B4417 /* NSDate+Extension.m */,
+				38FAA54E20DE06E8000B4417 /* UIView+Extension.h */,
+				38FAA55020DE06E8000B4417 /* UIView+Extension.m */,
+			);
+			name = JXDaePickerView;
+			sourceTree = "<group>";
+		};
 		AC4956201D2066CD00EA973A = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +142,7 @@
 		AC49562A1D2066CD00EA973A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC4956291D2066CD00EA973A /* Loc-Final.app */,
+				AC4956291D2066CD00EA973A /* LocationDatabase.app */,
 				AC4956451D2066CD00EA973A /* Loc-FinalTests.xctest */,
 				AC4956501D2066CD00EA973A /* Loc-FinalUITests.xctest */,
 			);
@@ -118,6 +152,11 @@
 		AC49562B1D2066CD00EA973A /* Loc-Final */ = {
 			isa = PBXGroup;
 			children = (
+				38FAA54020DCD647000B4417 /* Global.h */,
+				38FAA54120DCD647000B4417 /* Global.m */,
+				38FAA54A20DE06AB000B4417 /* JXDaePickerView */,
+				38DE264420DB2E37005015D4 /* SettingViewController.h */,
+				38DE264520DB2E37005015D4 /* SettingViewController.m */,
 				AC49562F1D2066CD00EA973A /* AppDelegate.h */,
 				AC4956301D2066CD00EA973A /* AppDelegate.m */,
 				AC4956321D2066CD00EA973A /* FirstViewController.h */,
@@ -140,6 +179,9 @@
 		AC49562C1D2066CD00EA973A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				38FAA54420DDE40F000B4417 /* gpsicon.png */,
+				38FAA54520DDE410000B4417 /* splash.png */,
+				38DE264720DB2F08005015D4 /* icons8-automatic-26.png */,
 				AC49562D1D2066CD00EA973A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -180,7 +222,7 @@
 			);
 			name = "Loc-Final";
 			productName = "Loc-Final";
-			productReference = AC4956291D2066CD00EA973A /* Loc-Final.app */;
+			productReference = AC4956291D2066CD00EA973A /* LocationDatabase.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AC4956441D2066CD00EA973A /* Loc-FinalTests */ = {
@@ -230,6 +272,11 @@
 				TargetAttributes = {
 					AC4956281D2066CD00EA973A = {
 						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					AC4956441D2066CD00EA973A = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -268,7 +315,10 @@
 			files = (
 				AC49563F1D2066CD00EA973A /* LaunchScreen.storyboard in Resources */,
 				AC49563C1D2066CD00EA973A /* Assets.xcassets in Resources */,
+				38FAA54620DDE410000B4417 /* gpsicon.png in Resources */,
 				AC49563A1D2066CD00EA973A /* Main.storyboard in Resources */,
+				38FAA54720DDE410000B4417 /* splash.png in Resources */,
+				38DE264820DB2F08005015D4 /* icons8-automatic-26.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,10 +345,15 @@
 			files = (
 				AC4956371D2066CD00EA973A /* SecondViewController.m in Sources */,
 				AC4956681D20676D00EA973A /* databaseObject.m in Sources */,
+				38FAA55320DE06E8000B4417 /* UIView+Extension.m in Sources */,
 				AC4956311D2066CD00EA973A /* AppDelegate.m in Sources */,
+				38DE264620DB2E37005015D4 /* SettingViewController.m in Sources */,
+				38FAA54220DCD647000B4417 /* Global.m in Sources */,
 				AC4956341D2066CD00EA973A /* FirstViewController.m in Sources */,
+				38FAA55220DE06E8000B4417 /* JXDatePickerView.m in Sources */,
 				AC49566B1D2067FC00EA973A /* locationDisplayViewController.m in Sources */,
 				AC49562E1D2066CD00EA973A /* main.m in Sources */,
+				38FAA55120DE06E8000B4417 /* NSDate+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,7 +524,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kids.Loc-Final";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LocationDatabase;
 			};
 			name = Debug;
 		};
@@ -485,7 +540,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kids.Loc-Final";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LocationDatabase;
 			};
 			name = Release;
 		};
